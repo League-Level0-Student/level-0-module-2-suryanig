@@ -40,6 +40,10 @@ void draw() {
      ellipse(60,109,7,7);
      ellipse(290,50,7,7);
      ellipse(287,340,7,7);
+     ellipse(210,190,7,7);
+     ellipse(80,109,7,7);
+     ellipse(310,50,7,7);
+     ellipse(307,340,7,7);
 }
 
 void drawMole(int moleX, int moleY) {

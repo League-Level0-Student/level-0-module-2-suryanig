@@ -1,7 +1,6 @@
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
-public static void main(String[]args){
 package _01_random._5_magic_8_ball;
 
 import java.util.Random;
@@ -11,45 +10,49 @@ import javax.swing.JOptionPane;
 public class Magic8Ball {
 
 	// 1. Make a main method that includes all the steps below
+	public static void main(String[] args) {
+		// 2. Get the user to enter a question for the 8 ball to answer
+JOptionPane.showInputDialog("Enter a question for the 8 ball to answer.");
+		// 3. Make a variable and initialize it to a random number.
+		// ** You will need to make a random object!
+		// Limit the random numbers to be between 0 and 3
+int number=new Random().nextInt(4);
+		// 4. If the random number is 0
 
-	// 2. Get the user to enter a question for the 8 ball to answer
-	JOptionPane.showInputDialog
+		// -- tell the user "Yes"
 
-	// 3. Make a variable and initialize it to a random number.
-	// ** You will need to make a random object!
-	// Limit the random numbers to be between 0 and 3
+		// 5. If the random number is 1
 
-	// 4. If the random number is 0
+		// -- tell the user "No"
 
-	// -- tell the user "Yes"
+		// 6. If the random number is 2
 
-	// 5. If the random number is 1
+		// -- tell the user "Maybe you should ask Google?"
 
-	// -- tell the user "No"
+		// 7. If the random number is 3
 
-	// 6. If the random number is 2
+		// -- write your own answer
 
-	// -- tell the user "Maybe you should ask Google?"
+		
+		switch(number) {
+		case 0:
 
-	// 7. If the random number is 3
+			JOptionPane.showMessageDialog(null, "yes");
+			break;
+		case 1:
 
-	// -- write your own answer
+			JOptionPane.showMessageDialog(null, "no");
+			break;
+		case 2:
 
-}switch(number){case 0:
+			JOptionPane.showMessageDialog(null, "Maybe you should ask Google?");
+			break;
+		case 3:
 
-	JOptionPane.shoeMessage Dialog(null, "yes");
-	break;
-case 1:
+			JOptionPane.showMessageDialog(null, "I don't know.");
+			break;
+		default:
 
-	JOptionPane.shoeMessage Dialog(null, "no");
-	break;
-case 2:
-
-	JOptionPane.shoeMessage Dialog(null, "Maybe you should ask Google?");
-	break;
-case 3:
-	
-	JOptionPane.shoeMessage Dialog(null, "I don't know.");
-	
-}
+		}
+	}
 }
