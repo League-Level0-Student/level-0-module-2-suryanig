@@ -5,6 +5,29 @@ public class LotteryNumber {
 	public static void main(String[] args) {
 		// 
 
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 
 }
