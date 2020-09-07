@@ -87,9 +87,11 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         int selection = 0;
        
         if(e.getSource() == paperButton){
-            selection = 1;
+        	int opponentSelection1 = 1;
+        	selection = 1;
         }else if(e.getSource() == scissorsButton){
-            selection = 2;
+        	int opponentSelection2 = 2;
+        	selection = 2;
         }
         
         JOptionPane.showMessageDialog(null, "You chose: " + convertSelection(selection) + ".\n"
