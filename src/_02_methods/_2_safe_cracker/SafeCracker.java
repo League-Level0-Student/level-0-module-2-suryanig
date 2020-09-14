@@ -50,3 +50,5 @@ public class SafeCracker {
 
 	final static int wekncrzpasfdkjhcfjse = new Random().nextInt(100);
 }
+
+
