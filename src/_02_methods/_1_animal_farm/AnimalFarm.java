@@ -24,15 +24,20 @@ public class AnimalFarm {
 
 		if (a.equals("cow")) {
 			playMoo();
+		} else if (a.equals("duck")) {
+			playQuack();
+		} else if (a.equals("dog")) {
+			playWoof();
+		} else if (a.equals("cat")) {
+			playMeow();
+		} else if (a.equals("llama")) {
+			playLlama();
 		}
+
 	}
 
 	static void playMoo() {
 		playNoise(mooFile);
-	}
-
-	elseif (a.equals("duck")){
-		playquack();
 	}
 
 	static void playQuack() {
